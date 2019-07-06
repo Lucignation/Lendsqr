@@ -1,0 +1,18 @@
+[
+    {
+        "_id":"2019-07-05T07:37:47.051Z",
+        "name":"Ren money",
+        "description":"Salary earners discounted loan",
+        "interest":"3%",
+        "amount":"50,000",
+        "tenure":"1.5 yrs"
+    },
+    {
+        "_id":"2019-07-05T07:42:28.144Z",
+        "name":"Kia Kia",
+        "description":"Easy small loan",
+        "interest":"5%",
+        "amount":"5,000",
+        "tenure":"3 months"
+    }
+]

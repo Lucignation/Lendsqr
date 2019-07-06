@@ -1,0 +1,24 @@
+<%- include('../includes/header.ejs') %>
+</head>
+<body>
+    <%- include('../includes/navigation.ejs') %>
+    <section class="user__detail">
+        <div>
+            <h1>Welcome back Gerald</h1>
+            <p>Here are few Loans you can access right now</p>
+            <%for(loans in loan){%>
+            <ul>
+                <li>
+                    <p><%=loans.name%></p>
+                    <p><%=loans.description%></p>
+                    <p><%=loans.interest%></p>
+                    <p><%=loans.amount%></p>
+                    <p><%=loans.tenure%></p>
+
+                </li>
+            </ul>
+            <%}%>
+        </div>
+    </section>
+
+    <%- include('../includes/footer.ejs') %>

@@ -1,0 +1,23 @@
+<%- include('../includes/header.ejs') %>
+</head>
+<body>
+    <%- include('../includes/navigation.ejs') %>
+    <section class="user__detail">
+        <form action="/signup" method="POST">
+            <input type="text" name="name" id="name" / placeholder="Type of Loan">
+            <input type="number" name="amount" id="amount" placeholder="Amount" />
+            <select>
+                <option>Ren Money</option>
+                <option>Kia Kia</option>
+            </select>
+            <select>
+                <option>Salary earners discounted loan</option>
+                <option>Easy small loan</option>
+            </select>
+            <input type="range" min="0" max="100" steps="5" name="interest" id="interest"/>
+            <input type="number" name="bvn" id="bvn" placeholder="Tenue" />
+            <button type="submit" >Apply</button>
+        </form>
+    </section>
+
+    <%- include('../includes/footer.ejs') %>

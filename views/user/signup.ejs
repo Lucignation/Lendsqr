@@ -1,0 +1,17 @@
+<%- include('../includes/header.ejs') %>
+</head>
+<body>
+    <%- include('../includes/navigation.ejs') %>
+    <section class="user__detail">
+        <form action="/signup" method="POST">
+            <input type="text" name="name" id="name" / placeholder="Your Name">
+            <input type="email" name="email" id="email" placeholder="Your Email" />
+            <input type="password" name="password" id="password" placeholder="password" />
+            <input type="number" name="phone" id="phone" placeholder="Phone Number" />
+            <input type="number" name="bvn" id="bvn" placeholder="Your BVN" />
+            <button type="submit" >Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="/">Login </a></p>
+    </section>
+
+    <%- include('../includes/footer.ejs') %>

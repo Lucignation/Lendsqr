@@ -1,0 +1,73 @@
+/*************************************/
+        /****GENERAL STYLE****/
+/*************************************/
+body{
+    margin: 0;
+    padding: 0;
+    /* padding: 30px; */
+    /* background-color: red; */
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 12px 60px;
+    margin-bottom: 60px;
+    color: #fff;
+}
+nav{
+    /* background-color: red; */
+    padding-top : -12px;
+}
+button{
+    padding: 15px;
+    background-color: transparent;
+    color: blueviolet;
+    cursor: pointer;
+    border: 2px solid blueviolet;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+    transition: all .1s ease-in-out;
+}
+
+button:focus{
+    transform: scale(1.1);
+    box-shadow: 3px 4px 5px #000;
+}
+
+
+/*************************************/
+ /****USER AUTHENTIFICATION STYLE****/
+/*************************************/
+
+.user__detail input{
+    background-color: transparent;
+    display: grid;
+    grid-template-rows: 75% 75%;
+    grid-row-gap: 10%;
+    font-size: 14px;
+    width: 35%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid blueviolet;
+}
+
+.user__detail{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+

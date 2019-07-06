@@ -1,0 +1,14 @@
+<%- include('../includes/header.ejs') %>
+</head>
+<body>
+    <%- include('../includes/navigation.ejs') %>
+    <section class="user__detail">
+        <form action="/" method="POST">
+            <input type="email" name="email" id="email" placeholder="Your Email" />
+            <input type="password" name="password" id="password" placeholder="password" />
+            <button type="submit" >Log In</button>
+        </form>
+        <p>Don't have an account? <a href="/signup">SignUp </a></p>
+    </section>
+
+    <%- include('../includes/footer.ejs') %>
